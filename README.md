@@ -4,7 +4,7 @@
 
 ### Introduction
 
-The client Dana, an investigative reporter, approached us to assist in the creation of an interactable webpage. The subject of the webpage is UFOs, something Dana has been interested in reporting on for years. She wants the webpage to contain her article about UFOs as well as a searchable table of information about different UFO sightings. The table in particular should be searchable via an entry form for filters.
+The prupose of the project is to create a webpage to contain an article about UFOs as well as a searchable table of information about different UFO sightings. The table in particular should be searchable via an entry form for filters.
 
 ### Data Analysis
 
@@ -18,6 +18,10 @@ The first step is the creation of an app that will let us build a table from the
 
 The html contains several parts. The first is the page header, a simple link back to the homepage (if we had other pages) with the text stating "UFO Sightings". Under this is a banner of an image of the Earth from the ISS with the title "The Truth is Out There" displayed over it. Scrolling down from that, Dana's article is under the banner. The title and subtitle of the article are on the left, and the article text is on the right. Directly under this is the table. The filter forms are on the left side of the screen, and the full table which will automatically update once we add filters is on the right.
 
+### Website Results
+
+![](https://github.com/roeggealissa/UFOs/blob/292a17facd92c554d438436bc00de62cc85326a5/images/webpage_snapshot.png)
+
 ### Website Issues and Recommendations 
 
-The issues with this website and possible recommendations go hand in hand. First, allow javascript to access and display the contents of the paragraph rather than putting it into the html file directly. Placing it into the html file directly could get messy if Dana wants to add additional articles or other pieces of text to the main webpage over time. Also, Dana most likely will not want to mess with the webpage code directly, so allowing her to place her text into a .js file that can then read the elements into the paragraph tags would possibly be her prefered way of adding additional content. In addition, we don't know how this webpage would handle more data. For now we only have just over 100 entries, but if we had thousands the page could slow adding them all in. In addition, and this might only matter if we had more columns or columns that could more easily be confused for one another, but we lose our filter form and our headers. One way around this is to periodically repeat the headers and have the form div move when tracking the scrolltop property. If Dana is willing to let us use some addition outside/premade help, we can use jquery and datatables (datatables.net) to have an easily searchable table that won't affect performance.
+The issues with this website and possible recommendations go hand in hand. First, allow javascript to access and display the contents of the paragraph rather than putting it into the html file directly. Placing it into the html file directly could get messy if the user wants to add additional articles or other pieces of text to the main webpage over time. Also, users most likely will not want to mess with the webpage code directly, so allowing them to place her text into a .js file that can then read the elements into the paragraph tags would possibly be her prefered way of adding additional content. In addition, we don't know how this webpage would handle more data. For now we only have just over 100 entries, but if we had thousands the page could slow adding them all in. In addition, and this might only matter if we had more columns or columns that could more easily be confused for one another, but we lose our filter form and our headers. One way around this is to periodically repeat the headers and have the form div move when tracking the scrolltop property. In the future with some outside/premade help, we can use jquery and datatables (datatables.net) to have an easily searchable table that won't affect performance.
