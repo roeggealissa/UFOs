@@ -4,13 +4,13 @@
 
 ### Introduction
 
-The prupose of the project is to create a webpage to contain an article about UFOs as well as a searchable table of information about different UFO sightings. The table in particular should be searchable via an entry form for filters.
+The purpose of the project is to create a webpage to contain an article about UFOs as well as a searchable table of information about different UFO sightings. The table in particular should be searchable via an entry form for filters.
 
 ### Data Analysis
 
 ##### Data
 
-The data is handed to us as a single JavaScript file containing dictionaries of sightings. The information included for each sighting is the date of the sighting,  the city state and country the sighting took place in, the shape of the UFO spotted, as well as any additional comments about the sighting from an unknown source.
+The data is handed to us as a single JavaScript file containing dictionaries of sightings. The information included for each sighting is the date of the sighting,  the city state and country the sighting took place in, the shape of the UFO spotted, as well as any additional comments about the sighting from an unknown source. The software used for this project includes E6+, HTML, CSS, Bootstrap, and D3.
 
 ##### Analysis
 
